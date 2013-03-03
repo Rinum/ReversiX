@@ -1,0 +1,300 @@
+---------------------------------------------------------------
+Notice Error: Undefined index: data in [C:\ReversiX\app\Plugin\Ratchet\Event\Rat
+chetCallUrlListener.php, line 23]
+
+
+
+Mohammed@MOHAMMED-PC /c/ReversiX/app/Console (master)
+$ ./cake Ratchet.websocket run > output.txt
+
+
+Mohammed@MOHAMMED-PC /c/ReversiX/app/Console (master)
+$ ./cake Ratchet.websocket run
+
+
+Welcome to CakePHP v2.3.0 Console
+---------------------------------------------------------------
+App : app
+Path: c:\ReversiX\app\
+---------------------------------------------------------------
+C:\ReversiX\app\Plugin\Ratchet\Event\RatchetCallUrlListener.php (line 19)
+########## DEBUG ##########
+false
+###########################
+
+Mohammed@MOHAMMED-PC /c/ReversiX/app/Console (master)
+$ ./cake Ratchet.websocket run
+
+
+Welcome to CakePHP v2.3.0 Console
+---------------------------------------------------------------
+App : app
+Path: c:\ReversiX\app\
+---------------------------------------------------------------
+C:\ReversiX\app\Plugin\Ratchet\Event\RatchetCallUrlListener.php (line 19)
+########## DEBUG ##########
+null
+###########################
+
+Mohammed@MOHAMMED-PC /c/ReversiX/app/Console (master)
+$ ./cake Ratchet.websocket run
+
+
+Welcome to CakePHP v2.3.0 Console
+---------------------------------------------------------------
+App : app
+Path: c:\ReversiX\app\
+---------------------------------------------------------------
+C:\ReversiX\app\Plugin\Ratchet\Event\RatchetCallUrlListener.php (line 19)
+########## DEBUG ##########
+false
+###########################
+
+Mohammed@MOHAMMED-PC /c/ReversiX/app/Console (master)
+$ ./cake Ratchet.websocket run
+
+
+Welcome to CakePHP v2.3.0 Console
+---------------------------------------------------------------
+App : app
+Path: c:\ReversiX\app\
+---------------------------------------------------------------
+
+Fatal error: Call to a member function all() on a non-object in C:\ReversiX\app\
+Plugin\Ratchet\Event\RatchetCallUrlListener.php on line 19
+Fatal Error Error: Call to a member function all() on a non-object in [C:\Revers
+iX\app\Plugin\Ratchet\Event\RatchetCallUrlListener.php, line 19]
+
+
+Mohammed@MOHAMMED-PC /c/ReversiX/app/Console (master)
+$ ./cake Ratchet.websocket run
+
+
+Welcome to CakePHP v2.3.0 Console
+---------------------------------------------------------------
+App : app
+Path: c:\ReversiX\app\
+---------------------------------------------------------------
+C:\ReversiX\app\Plugin\Ratchet\Event\RatchetCallUrlListener.php (line 19)
+########## DEBUG ##########
+array()
+###########################
+
+Mohammed@MOHAMMED-PC /c/ReversiX/app/Console (master)
+$ ./cake Ratchet.websocket run
+
+
+Welcome to CakePHP v2.3.0 Console
+---------------------------------------------------------------
+App : app
+Path: c:\ReversiX\app\
+---------------------------------------------------------------
+C:\ReversiX\app\Plugin\Ratchet\Event\RatchetCallUrlListener.php (line 19)
+########## DEBUG ##########
+array()
+###########################
+Fatal error: Allowed memory size of 134217728 bytes exhausted (tried to allocate
+ 4 bytes) in C:\ReversiX\lib\Cake\Controller\Controller.php on line 331
+
+Mohammed@MOHAMMED-PC /c/ReversiX/app/Console (master)
+$ ./cake Ratchet.websocket run
+
+
+Welcome to CakePHP v2.3.0 Console
+---------------------------------------------------------------
+App : app
+Path: c:\ReversiX\app\
+---------------------------------------------------------------
+C:\ReversiX\app\Plugin\Ratchet\Event\RatchetCallUrlListener.php (line 19)
+########## DEBUG ##########
+array()
+###########################
+
+Mohammed@MOHAMMED-PC /c/ReversiX/app/Console (master)
+$ ./cake Ratchet.websocket run
+
+
+Welcome to CakePHP v2.3.0 Console
+---------------------------------------------------------------
+App : app
+Path: c:\ReversiX\app\
+---------------------------------------------------------------
+C:\ReversiX\app\Plugin\Ratchet\Event\RatchetCallUrlListener.php (line 19)
+########## DEBUG ##########
+array()
+###########################
+
+Mohammed@MOHAMMED-PC /c/ReversiX/app/Console (master)
+$ ./cake Ratchet.websocket run
+
+
+Welcome to CakePHP v2.3.0 Console
+---------------------------------------------------------------
+App : app
+Path: c:\ReversiX\app\
+---------------------------------------------------------------
+
+Fatal error: Cannot use object of type Ratchet\Wamp\WampConnection as array in C
+:\ReversiX\app\Plugin\Ratchet\Event\RatchetCallUrlListener.php on line 19
+Fatal Error Error: Cannot use object of type Ratchet\Wamp\WampConnection as arra
+y in [C:\ReversiX\app\Plugin\Ratchet\Event\RatchetCallUrlListener.php, line 19]
+
+
+Mohammed@MOHAMMED-PC /c/ReversiX/app/Console (master)
+$
+
+Mohammed@MOHAMMED-PC /c/ReversiX/app/Console (master)
+$ ./cake Ratchet.websocket run
+
+
+Welcome to CakePHP v2.3.0 Console
+---------------------------------------------------------------
+App : app
+Path: c:\ReversiX\app\
+---------------------------------------------------------------
+
+Fatal error: Cannot use object of type Ratchet\Wamp\WampConnection as array in C
+:\ReversiX\app\Plugin\Ratchet\Event\RatchetCallUrlListener.php on line 19
+Fatal Error Error: Cannot use object of type Ratchet\Wamp\WampConnection as arra
+y in [C:\ReversiX\app\Plugin\Ratchet\Event\RatchetCallUrlListener.php, line 19]
+
+
+Mohammed@MOHAMMED-PC /c/ReversiX/app/Console (master)
+$ ./cake Ratchet.websocket run
+
+
+Welcome to CakePHP v2.3.0 Console
+---------------------------------------------------------------
+App : app
+Path: c:\ReversiX\app\
+---------------------------------------------------------------
+C:\ReversiX\app\Plugin\Ratchet\Event\RatchetCallUrlListener.php (line 19)
+########## DEBUG ##########
+object(Symfony\Component\HttpFoundation\Session\Session) {
+        [protected] storage => object(Ratchet\Session\Storage\VirtualSessionStor
+age) {
+                [protected] _serializer => object(Ratchet\Session\Serialize\PhpH
+andler) {
+
+                }
+                [protected] bags => array(
+                        'attributes' => object(Symfony\Component\HttpFoundation\
+Session\Attribute\AttributeBag) {
+                                [protected] attributes => array()
+                                [private] name => 'attributes'
+                                [private] storageKey => '_sf2_attributes'
+                        },
+                        'flashes' => object(Symfony\Component\HttpFoundation\Ses
+sion\Flash\FlashBag) {
+                                [private] name => 'flashes'
+                                [private] flashes => array()
+                                [private] storageKey => '_sf2_flashes'
+                        }
+                )
+                [protected] started => true
+                [protected] closed => false
+                [protected] saveHandler => object(Ratchet\Session\Storage\Proxy\
+VirtualProxy) {
+                        [protected] _sessionId => 'kr6dg2s8kj2oqee14jnkmg2mq4'
+                        [protected] _sessionName => 'PHPSESSID'
+                        [protected] handler => object(Symfony\Component\HttpFoun
+dation\Session\Storage\Handler\MemcacheSessionHandler) {
+                                [private] memcache => object(Memcache) {
+                                        connection => resource
+                                }
+                                [private] ttl => (int) 86400
+                                [private] prefix => 'reversix_'
+                        }
+                        [protected] wrapper => false
+                        [protected] active => false
+                        [protected] saveHandlerName => 'user'
+                }
+                [protected] metadataBag => object(Symfony\Component\HttpFoundati
+on\Session\Storage\MetadataBag) {
+                        [protected] meta => array(
+                                'u' => (int) 1361578087,
+                                'c' => (int) 1361578087,
+                                'l' => '0'
+                        )
+                        [private] name => '__metadata'
+                        [private] storageKey => '_sf2_meta'
+                        [private] lastUsed => (int) 1361578087
+                }
+        }
+        [private] flashName => 'flashes'
+        [private] attributeName => 'attributes'
+}
+###########################
+
+Mohammed@MOHAMMED-PC /c/ReversiX/app/Console (master)
+$ ./cake Ratchet.websocket run
+
+
+Welcome to CakePHP v2.3.0 Console
+---------------------------------------------------------------
+App : app
+Path: c:\ReversiX\app\
+---------------------------------------------------------------
+
+Fatal error: Call to undefined method Symfony\Component\HttpFoundation\Session\S
+ession::id() in C:\ReversiX\app\Plugin\Ratchet\Event\RatchetCallUrlListener.php
+on line 19
+Fatal Error Error: Call to undefined method Symfony\Component\HttpFoundation\Ses
+sion\Session::id() in [C:\ReversiX\app\Plugin\Ratchet\Event\RatchetCallUrlListen
+er.php, line 19]
+
+
+Mohammed@MOHAMMED-PC /c/ReversiX/app/Console (master)
+$
+
+Mohammed@MOHAMMED-PC /c/ReversiX/app/Console (master)
+$ ./cake Ratchet.websocket run
+
+
+Welcome to CakePHP v2.3.0 Console
+---------------------------------------------------------------
+App : app
+Path: c:\ReversiX\app\
+---------------------------------------------------------------
+
+Fatal error: Cannot access protected property Symfony\Component\HttpFoundation\S
+ession\Session::$storage in C:\ReversiX\app\Plugin\Ratchet\Event\RatchetCallUrlL
+istener.php on line 19
+Fatal Error Error: Cannot access protected property Symfony\Component\HttpFounda
+tion\Session\Session::$storage in [C:\ReversiX\app\Plugin\Ratchet\Event\RatchetC
+allUrlListener.php, line 19]
+
+
+Mohammed@MOHAMMED-PC /c/ReversiX/app/Console (master)
+$ ./cake Ratchet.websocket run
+
+
+Welcome to CakePHP v2.3.0 Console
+---------------------------------------------------------------
+App : app
+Path: c:\ReversiX\app\
+---------------------------------------------------------------
+C:\ReversiX\app\Plugin\Ratchet\Vendor\symfony\http-foundation\Symfony\Component\
+HttpFoundation\Session\Storage\Handler\MemcacheSessionHandler.php (line 82)
+########## DEBUG ##########
+'s:175:"Config|a:3:{s:9:"userAgent";s:32:"01b483bab82a69b7f6abd14b98f30123";s:4:
+"time";i:1361591955;s:9:"countdown";i:10;}User|a:2:{s:8:"username";s:9:"Kej Duna
+e";s:2:"id";s:3:"174";}";'
+###########################
+
+Mohammed@MOHAMMED-PC /c/ReversiX/app/Console (master)
+$ ./cake Ratchet.websocket run
+
+
+Welcome to CakePHP v2.3.0 Console
+---------------------------------------------------------------
+App : app
+Path: c:\ReversiX\app\
+---------------------------------------------------------------
+C:\ReversiX\app\Plugin\Ratchet\Vendor\symfony\http-foundation\Symfony\Component\
+HttpFoundation\Session\Storage\Handler\MemcacheSessionHandler.php (line 82)
+########## DEBUG ##########
+'s:175:"Config|a:3:{s:9:"userAgent";s:32:"01b483bab82a69b7f6abd14b98f30123";s:4:
+"time";i:1361591955;s:9:"countdown";i:10;}User|a:2:{s:8:"username";s:9:"Kej Duna
+e";s:2:"id";s:3:"174";}";'
+###########################

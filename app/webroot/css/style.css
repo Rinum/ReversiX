@@ -1,0 +1,79 @@
+@charset \"utf-8\";
+/* CSS Document */
+
+html,body{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#ffffff;
+	width:100%;
+	height:100%;
+	padding:0px;
+	margin:0px;
+	background:#111111 url(/img/dark_mosaic.png) repeat;
+}
+
+a{
+	text-decoration:none;
+	color:inherit;
+}
+
+.c0{color:#ffffff}/*white*/
+.c1{color:#999999}/*gray*/
+
+.f8{font-size:8px;}
+.f10{font-size:10px;}
+.f12{font-size:12px;}
+.f14{font-size:14px;}
+.f16{font-size:16px;}
+.f18{font-size:18px;}
+.f24{font-size:24px;}
+.f32{font-size:32px;}
+.f36{font-size:36px;}
+
+.left{float:left;}
+
+#wrapper{
+	height: 100%;
+	position: relative;
+	min-height: 700px;
+}
+
+#content{
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-top:-343px;
+	margin-left:-436px;
+	height: 100;
+}
+
+#canvascontainer{
+	background:url(/img/tgradient.png) top repeat-x,url(/img/bgradient.png) bottom repeat-x, url(/img/lgradient.png) left repeat-y,url(/img/rgradient.png) right repeat-y,#222222 url(/img/blackmamba.png) repeat;
+	border:#0C1526 solid 1px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding:10px;
+	width:850px;
+	height:640px;	
+}
+
+#canvas{
+	cursor:pointer;
+}
+
+#footer{
+	margin-top:5px;
+}
+
+.message{
+	font-size: 12px;
+}
+
+.non-player{
+	
+}
+
+.player{
+	font-size: 14px;
+	font-weight:bold;
+}
